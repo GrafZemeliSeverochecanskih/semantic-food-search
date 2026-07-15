@@ -1,0 +1,17 @@
+# Confidential data - never commit (Prosus confidentiality notice)
+data/
+*.csv
+!outputs/eval_summary.csv
+
+# Secrets
+.env
+
+# Caches & artifacts
+artifacts/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Not pushed yet
+colab/

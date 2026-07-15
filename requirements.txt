@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.26
+rank-bm25>=0.2.2
+openai>=1.40
+
+# Optional: local embedding backend (free, offline) used for --embedder local
+# and as a no-API-key fallback. Comment out if you only use OpenAI embeddings.
+sentence-transformers>=3.0
